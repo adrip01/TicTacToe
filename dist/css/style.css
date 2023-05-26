@@ -1,0 +1,1 @@
+:root{--light-color: white;--dark-color: grey;--midtones: lightgrey}.startButton{padding:20px 60px;background-color:var(--midtones);color:var(--light-color);font-size:2em;font-weight:600}
