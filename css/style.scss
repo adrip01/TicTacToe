@@ -2,14 +2,54 @@
 
 :root {
   --light-color: white;
-  --dark-color: grey;
-  --midtones: lightgrey;
+  --dark-color: rgb(74, 74, 74);
+  --midtones: rgb(175, 175, 175);
+}
+
+body {
+  width: 98vw;
+  background-color: var(--dark-color) !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+div[class*="col"] {
+  padding: 0;
+}
+
+#row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  color: var(--light-color);
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
 }
 
 .startButton {
-  padding: 20px 60px;
+  padding: 10px 50px;
   background-color: var(--midtones);
   color: var(--light-color);
   font-size: 2em;
   font-weight: 600;
+  border: solid 5px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
