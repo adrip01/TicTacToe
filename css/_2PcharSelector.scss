@@ -1,14 +1,21 @@
+.col {
+  justify-content: center;
+  align-items: center;
+}
+
 .chooseTitle {
-  margin: 0;
+  margin: 0px 0px 0px 0px;
+
   color: var(--light-color);
-  font-size: 4em;
+  font-size: calc(32px + (98 - 32) * ((100vw - 320px) / (2560 - 320)));
+  text-align: center;
 }
 
 .choosePlayer {
-  margin: 0;
+  margin: 0px 0px 0px 0px;
   color: var(--light-color);
   font-weight: 600;
-  font-size: 2em;
+  font-size: calc(24px + (84 - 24) * ((100vw - 320px) / (2560 - 320)));
 }
 
 .carouselCol {
