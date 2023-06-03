@@ -25,11 +25,3 @@
   align-items: center;
   height: 50vh;
 }
-
-div[id*="carousel"] {
-  width: 320px;
-}
-
-div[class*="carousel-item"] > img {
-  margin: 0% 10%;
-}
