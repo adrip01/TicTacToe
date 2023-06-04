@@ -13,20 +13,25 @@
 }
 
 .statusCol {
+  padding: 0px 5px !important;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .playground {
   margin: 0;
+  margin: 50px 0px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 33% 33% 33%;
   max-width: 300px;
+  box-shadow: 0px 0px 20px 15px rgb(0, 0, 0);
 }
 
 .tile {
-  border: 1px solid var(--light-color);
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid var(--light-color);
   min-width: 100px;
   min-height: 100px;
   display: flex;
@@ -34,4 +39,22 @@
   align-items: center;
   font-size: var(--font-size-for-buttons);
   cursor: pointer;
+}
+
+.ekgImg {
+  width: 100%;
+  height: auto;
+}
+
+.metalPlateInsetPlayground {
+  padding: 3px;
+  background-color: black;
+  border: 3px solid var(--light-color);
+  border-style: inset;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+#invisibleRow {
+  height: 25vh;
 }
