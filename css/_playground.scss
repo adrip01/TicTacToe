@@ -1,0 +1,37 @@
+#bodyPlayground {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/img/graphics/olas.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playgroundCol {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.statusCol {
+  justify-content: center;
+  align-items: center;
+}
+
+.playground {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+}
+
+.tile {
+  border: 1px solid var(--light-color);
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-for-buttons);
+  cursor: pointer;
+}
