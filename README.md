@@ -1,4 +1,4 @@
-# Welcome to my frontend app
+# Bienvenido a mi proyecto de tres en raya
 
 <details>
   <summary>Contenido 📝</summary>
