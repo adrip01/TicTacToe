@@ -26,7 +26,7 @@ Es un juego de tres en raya en el que se puede escoger jugar contra la CPU o con
 ## Deploy 🚀
 
 <div align="center">
-    <a href="https://www.google.com">⭐🌟⭐<strong>Url a producción </strong></a>⭐🌟⭐
+    <a href="https://adrip01.github.io/TicTacToe/">⭐🌟⭐<strong>Url a producción </strong></a>⭐🌟⭐
 </div>
 
 ## Stack
