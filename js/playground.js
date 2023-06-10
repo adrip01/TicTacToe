@@ -16,20 +16,7 @@ const playerX = "X";
 const playerO = "O";
 let turno = true;
 
-// coge el valor del id de cada tile
-/* const clicking = (t) => {
-  tileElegido = t.currentTarget;
-  tileID = tileElegido.id;
-  imprimir(tileID);
-  function imprimir(tileID) {
-    if ((document.getElementById(tileID).innerHTML = " ")) {
-      document.getElementById(tileID).addEventListener("click", () => {
-        document.getElementById(tileID).innerHTML = "X";
-      });
-    }
-  }
-};
- */
+//
 
 const imprimir = (t) => {
   let tileElegido = t.currentTarget;
