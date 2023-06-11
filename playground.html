@@ -14,66 +14,80 @@
     />
   </head>
   <body id="bodyPlayground">
-    <div class="row d-none d-md-block" id="invisibleRow">
-      <div class="col"></div>
-    </div>
-    <div class="row">
-      <div
-        class="col-md-4 col-sm-6 col-xs-6 col-6 order-md-1 order-sm-1 order-1 statusCol"
-      >
-        <div class="metalPlate">
-          <p class="subTitles">
-            <span id="p1Name"></span>
-            status
-          </p>
-          <div class="metalPlateInsetPlayground">
-            <div class="ekg">
-              <img
-                src="./img/graphics/ekg-Green.gif"
-                alt="ekg"
-                class="ekgImg"
-              />
+    <div class="container-fluid">
+      <div class="row d-none d-md-block" id="invisibleRow">
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-4 col-sm-6 col-xs-6 col-6 order-md-1 order-sm-1 order-1 statusCol"
+        >
+          <div class="metalPlate">
+            <p class="subTitles">
+              <span id="p1Name"></span>
+              status
+            </p>
+            <div class="metalPlateInsetPlayground">
+              <div class="ekg">
+                <img
+                  src="./img/graphics/ekg-Green.gif"
+                  alt="ekg"
+                  class="ekgImg"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div
-        class="col-md-4 col-sm-12 order-md-2 order-sm-3 order-3 playgroundCol"
-      >
-        <div class="playground">
-          <div class="tile" id="t1"></div>
-          <div class="tile" id="t2"></div>
-          <div class="tile" id="t3"></div>
-          <div class="tile" id="t4"></div>
-          <div class="tile" id="t5"></div>
-          <div class="tile" id="t6"></div>
-          <div class="tile" id="t7"></div>
-          <div class="tile" id="t8"></div>
-          <div class="tile" id="t9"></div>
-        </div>
-        <div class="metalPlate">
-          <div class="metalPlateInsetPlayground">
-            <a href="./playground.html">
-              <button type="button" class="button">Restart</button>
-            </a>
+        <div
+          class="col-md-4 col-sm-12 order-md-2 order-sm-3 order-3 playgroundCol"
+        >
+          <span id="winnerMessage"></span>
+          <div class="playground">
+            <div class="tile" id="0"></div>
+            <div class="tile" id="1"></div>
+            <div class="tile" id="2"></div>
+            <div class="tile" id="3"></div>
+            <div class="tile" id="4"></div>
+            <div class="tile" id="5"></div>
+            <div class="tile" id="6"></div>
+            <div class="tile" id="7"></div>
+            <div class="tile" id="8"></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="metalPlate" id="bttcolplayground">
+                <div class="metalPlateInsetPlayground">
+                  <a href="./index.html">
+                    <button type="button" class="buttonPlayground">Go Menu</button>
+                  </a>
+                </div>
+                <div class="metalPlateInsetPlayground">
+                  <a href="./playground.html">
+                    <button type="button" class="buttonPlayground">
+                      Restart
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        class="col-md-4 col-sm-6 col-xs-6 col-6 order-md-3 order-sm-2 order-2 statusCol"
-      >
-        <div class="metalPlate">
-          <p class="subTitles">
-            <span id="p2Name"></span>
-            status
-          </p>
-          <div class="metalPlateInsetPlayground">
-            <div class="ekg">
-              <img
-                src="./img/graphics/ekg-Green.gif"
-                alt="ekg"
-                class="ekgImg"
-              />
+        <div
+          class="col-md-4 col-sm-6 col-xs-6 col-6 order-md-3 order-sm-2 order-2 statusCol"
+        >
+          <div class="metalPlate">
+            <p class="subTitles">
+              <span id="p2Name"></span>
+              status
+            </p>
+            <div class="metalPlateInsetPlayground">
+              <div class="ekg">
+                <img
+                  src="./img/graphics/ekg-Green.gif"
+                  alt="ekg"
+                  class="ekgImg"
+                />
+              </div>
             </div>
           </div>
         </div>

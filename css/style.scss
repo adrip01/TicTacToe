@@ -20,7 +20,7 @@
     24px + (48 - 24) * ((100vw - 320px) / (2560 - 320))
   );
 
-  --font-size-OXO: calc(46px + (84 - 46) * ((100vw - 320px) / (2560 - 320)));
+  --font-size-OXO: 65px;
 }
 
 /* desactiva el resalte del input, cuidado con la accesibilidad */
