@@ -15,12 +15,9 @@ const playerX = "X";
 const playerO = "O";
 let activePlayer = playerX;
 
-console.log(tiles);
-
 const imprimir = (t) => {
   let tileElegido = t.currentTarget;
   let tileID = tileElegido.id;
-  console.log(tileID);
 
   let tile = document.getElementById(tileID);
 

@@ -11,13 +11,13 @@
   --black-like: #0d0d0d;
 
   --font-size-for-buttons: calc(
-    24px + (36 - 24) * ((100vw - 320px) / (2560 - 320))
+    24px + (26 - 24) * ((100vw - 320px) / (2560 - 320))
   );
   --font-size-for-titles: calc(
-    24px + (84 - 24) * ((100vw - 320px) / (2560 - 320))
+    24px + (56 - 24) * ((100vw - 320px) / (2560 - 320))
   );
   --font-size-for-subtitles: calc(
-    24px + (48 - 24) * ((100vw - 320px) / (2560 - 320))
+    24px + (36 - 24) * ((100vw - 320px) / (2560 - 320))
   );
 
   --font-size-OXO: 65px;

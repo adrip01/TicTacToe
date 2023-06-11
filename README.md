@@ -9,7 +9,6 @@
     <li><a href="#stack">Stack</a></li>
     <li><a href="#vistas">Vistas</a></li>
     <li><a href="#futuras-funcionalidades">Futuras funcionalidades</a></li>
-    <li><a href="#licencia">Licencia</a></li>
     <li><a href="#webgrafia">Webgrafia</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ol>
@@ -32,15 +31,9 @@ Es un juego de tres en raya en el que se puede escoger jugar contra la CPU o con
 ## Stack
 
 <div align="center">
-<a href="">
     <img src= "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-</a>
-<a href="">
     <img src= "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-</a>
-<a href="">
     <img src= "https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
-</a>
 <a href="https://getbootstrap.com/">
     <img src= "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 </a>
@@ -51,20 +44,16 @@ Es un juego de tres en raya en el que se puede escoger jugar contra la CPU o con
 
 ## Vistas
 
-Landing
-<img src="./images/landing.png">
+Vistas en móvil
+<img src="./img/readmeImages/mobileViews.png">
 
 ## Futuras funcionalidades
 
 ✅ Guardado de nombre en el session storage
 ⬜ Limitación a tres fichas por jugador  
-⬜ Mejoras en la IA
+⬜ Implementar juego contra CPU
 
 <!-- ⬜ ... -->
-
-## Licencia
-
-Este proyecto se encuentra bajo licencia de "Adriana Pardo"
 
 ## Webgrafia:
 
