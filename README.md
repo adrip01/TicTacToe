@@ -20,7 +20,7 @@ El objetivo de este proyecto es practicar el uso de Javascript.
 
 ## Sobre el proyecto 🔎
 
-Es un juego de tres en raya en el que se puede escoger jugar contra la CPU o contra otro jugador. También se le pregunta al jugador por su nickname y queda guardado en el session storage. Cada jugador tiene 3 fichas y gana el primero en conseguir alinearlas.
+Es un juego de tres en raya en el que puedes jugar contra otro jugador de manera local. Se pregunta el nickname de los jugadores y queda guardado en el session storage. 
 
 ## Deploy 🚀
 
@@ -45,13 +45,14 @@ Es un juego de tres en raya en el que se puede escoger jugar contra la CPU o con
 ## Vistas
 
 Vistas en móvil
-<img src="./img/readmeImages/mobileViews.png">
+<img src="./img/readmeImages/mobileViews2.png">
 
 ## Futuras funcionalidades
 
 ✅ Guardado de nombre en el session storage
-⬜ Limitación a tres fichas por jugador  
+⬜ Obligatoriedad de entrar los nicknames  
 ⬜ Implementar juego contra CPU
+⬜ Limitación a tres fichas por jugador  
 
 <!-- ⬜ ... -->
 

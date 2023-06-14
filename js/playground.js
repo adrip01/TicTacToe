@@ -1,5 +1,3 @@
-// hacer session storage con objetos??
-
 const p1NameID = document.getElementById("p1Name");
 const p2NameID = document.getElementById("p2Name");
 
