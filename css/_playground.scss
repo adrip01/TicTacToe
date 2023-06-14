@@ -20,7 +20,7 @@
 }
 
 .playground {
-  margin: 50px 0px;
+  margin: 20px 0px 50px 0px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 33% 33% 33%;
@@ -39,7 +39,6 @@
   font-size: var(--font-size-OXO);
   color: var(--light-color);
   cursor: pointer;
-  // text-shadow: 0px 0px 0px var(--light-color);
 }
 
 .buttonPlayground {
@@ -92,12 +91,16 @@
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.504);
 }
 
 .message {
-  max-width: 300px;
-  font-size: 55px;
+  position: absolute;
+  top: 150px;
+  max-width: 390px;
+  font-size: 65px;
+  text-align: center;
+  flex-wrap: wrap;
   color: var(--light-color);
   text-shadow: 0px 0px 10px var(--light-color);
 }

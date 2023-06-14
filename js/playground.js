@@ -14,14 +14,27 @@ let activePlayer = playerTextX;
 let counterOfMoves = 0;
 let winnerTriggered = false;
 
+showActivePlayer = () => {
+  let activePlayerName;
+  if (activePlayer === playerTextX) {
+    activePlayerName = sessionStorage.getItem(p1Name);
+  } else {
+    activePlayerName = sessionStorage.getItem(p2Name);
+  }
+
+  document.getElementById(
+    "activePlayerDisplay"
+  ).innerHTML = `It's ${activePlayerName} turn`;
+};
+
+showActivePlayer();
+
 showTieMessage = () => {
   document.getElementById(
     "messageSpawn"
   ).innerHTML = `<div class="containerMessage">
-       <div class="metalPlate">
-          <div class="message">IT'S A TIE!</div>
-       </div>
-      </div>`;
+                      <div class="message">IT'S A TIE!</div>
+                 </div>`;
 };
 
 const print = (e) => {
@@ -34,13 +47,12 @@ const print = (e) => {
     counterOfMoves++;
     winner();
     activePlayer = activePlayer === playerTextX ? playerTextO : playerTextX;
+    showActivePlayer();
 
     if (counterOfMoves == 9 && !winnerTriggered) {
       showTieMessage();
       stop();
     }
-
-    console.log(counterOfMoves);
   }
 };
 
@@ -55,7 +67,6 @@ const stop = () => {
 };
 
 showWinnerMessage = () => {
-  let activeWinner;
   if (activePlayer === playerTextX) {
     activeWinner = sessionStorage.getItem(p1Name);
   } else {
@@ -64,10 +75,8 @@ showWinnerMessage = () => {
   document.getElementById(
     "messageSpawn"
   ).innerHTML = `<div class="containerMessage">
-        <div class="metalPlate">
-          <div class="message">${activeWinner} WINS!</div>
-        </div>;
-      </div>`;
+                     <div class="message">${activeWinner} WINS!</div>
+                 </div>`;
 };
 
 const winner = () => {

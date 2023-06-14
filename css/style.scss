@@ -54,6 +54,21 @@ div[class*="col"] {
   align-items: center;
 }
 
+.disabledButton {
+  height: auto;
+  padding: 10px 45px;
+  background-color: var(--midtones);
+  color: var(--light-color);
+  font-size: var(--font-size-for-buttons);
+  font-weight: 600;
+  border: solid 15px var(--dark-purple);
+  border-style: outset solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button {
   height: auto;
   padding: 10px 45px;
